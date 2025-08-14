@@ -1,11 +1,64 @@
-# financial_portfolio_capstone
-Capstone Project: Stock Portfolio Recommendation¶
 
-1. Project Description and Objective
-I am working as a wealth manager at a small firm where I have clients seeking advice on how to invest their money.
-A young client wants to invest a large amount of their savings in a portfolio of stocks, but they are unsure of what stocks to invest in and at what amounts.
+# 📈 Capstone Project: Stock Portfolio Recommendation
 
-In this capstone project, I will create a presentation that showcases a portfolio of stocks that I recommend the client invest in, and provide the weights at which they should invest in each stock depending on their risk preference.
+## 🎯 Project Overview
+A young client approached our wealth management firm seeking guidance on how to invest a significant portion of their savings in the stock market.  
+They are unsure **which stocks** to invest in and **how much** to allocate to each, based on their **risk preference**.
 
-The purpose of this capstone is to practice accessing and downloading financial data, calculating financial statistics to understand the individual performance of an asset and how groups of assets are related, and how to allocate investments across assets for optimal performance.
-The purpose of this capstone is to practice accessing and downloading financial data, calculating financial statistics to understand the individual performance of an asset and how groups of assets are related, and how to allocate investments across assets for optimal performance.
+This project focuses on:
+- Accessing and downloading **financial data**
+- Calculating **key financial statistics**
+- Understanding **individual asset performance**
+- Analyzing **correlation between assets**
+- Optimizing **portfolio allocation** for different risk levels
+
+---
+
+## 📌 Objectives
+1. **Data Acquisition**  
+   - Retrieve historical stock price data from reliable financial APIs.
+   - Ensure clean, well-structured datasets for analysis.
+
+2. **Performance Analysis**  
+   - Calculate **returns**, **volatility**, and **Sharpe ratio**.
+   - Identify stocks with strong risk-adjusted returns.
+
+3. **Correlation Study**  
+   - Evaluate the relationship between chosen stocks.
+   - Understand diversification benefits.
+
+4. **Portfolio Optimization**  
+   - Use **Modern Portfolio Theory (MPT)** to find optimal weights.
+   - Provide recommendations for **low, medium, and high** risk appetites.
+
+---
+
+## 🛠 Tools & Technologies
+- **Python**: Data analysis & modeling  
+- **Pandas & NumPy**: Data manipulation  
+- **Matplotlib & Seaborn**: Visualization  
+- **yfinance**: Stock data retrieval  
+- **scipy.optimize**: Portfolio optimization
+
+---
+
+## 📊 Expected Deliverables
+- **Stock Portfolio Recommendations** for different risk levels
+- Visualizations:
+  - **Efficient Frontier**
+  - **Risk vs Return plots**
+  - **Correlation heatmaps**
+- Allocation **weight tables** for each risk profile
+- Professional **presentation deck** for the client
+
+---
+
+## 🏆 Outcome
+By the end of this project, the client will receive:
+- A **clear investment strategy**
+- Data-driven stock selection
+- Optimal allocation weights tailored to their **risk tolerance**
+- Visual, easy-to-understand insights into portfolio performance
+
+---
+💡 *This project is not financial advice; it is for educational purposes.*
